@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: serif;
+    line-height: 1.6;
+
+}
+
+.container{
+    max-width: 720px;
+
+    margin: 5% auto;
+    text-align: center;
+
+}
+
+.reset-btn{
+    display: none;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgb(37, 37, 119);
+
+}
+
+.reset-btn:hover{
+    opacity: 0.8;
+}
+
+.score{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem 0 1.5rem  0;
+}
+
+.score p:first-child{
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+.score p:last-child{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.choices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.choices i:hover{
+    color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
